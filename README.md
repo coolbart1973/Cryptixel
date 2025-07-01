@@ -123,7 +123,8 @@ visual-qr-generator/
 
 ## 📞 联系
 
-如有问题或建议，请通过GitHub Issues联系。
+如有问题或建议，请通过Email联系。
+Email：cyinhaos@gmail.com
 
 ---
 
