@@ -1,132 +1,141 @@
 # Visual QR Generator
 
-一个具有Visual pairing protocol美感的二维码生成器和扫描器，包含粒子特效、立体感、AES-256加密、丝滑动画和美观的HTML界面。
+A QR code generator and scanner inspired by the aesthetics of Visual Pairing Protocol, featuring particle effects, 3D depth, AES-256 encryption, fluid animations, and a beautiful HTML interface.
 
-## 🌟 特性
+## 🌟 Features
 
-- **🔒 AES-256加密**: 使用Web Crypto API实现的军用级加密
-- **✨ 粒子特效**: 基于Three.js的3D粒子系统
-- **🎨 3D视觉设计**: 立体感和深度效果
-- **🌊 丝滑动画**: 流畅的页面过渡和交互动画
-- **📱 响应式设计**: 完美适配桌面和移动设备
-- **🎯 现代UI/UX**: 毛玻璃效果、圆润边角、渐变背景
+- **🔒 AES-256 Encryption**: Military-grade encryption using the Web Crypto API  
+- **✨ Particle Effects**: 3D particle system powered by Three.js  
+- **🎨 3D Visual Design**: Realistic depth and dimensionality  
+- **🌊 Smooth Animations**: Seamless page transitions and interaction feedback  
+- **📱 Responsive Design**: Fully optimized for both desktop and mobile  
+- **🎯 Modern UI/UX**: Glassmorphism, rounded corners, and gradient backgrounds  
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-1. 下载项目文件
-2. 在浏览器中打开 `index.html`
-3. 输入要加密的消息
-4. 可选择设置自定义密码（留空则自动生成）
-5. 点击"Generate Visual QR"生成视觉二维码
-6. 使用"Open Scanner"打开扫描器进行解码
+1. Download the project files  
+2. Open `index.html` in your browser  
+3. Enter the message you want to encrypt  
+4. Optionally set a custom password (a secure one is auto-generated if left blank)  
+5. Click “Generate Visual QR” to create a visual QR code  
+6. Use “Open Scanner” to decode via the scanner page  
 
-## 📁 项目结构
+## 📁 Project Structure
 
-```
 visual-qr-generator/
-├── index.html              # 主页面（生成器）
-├── scanner.html            # 扫描器页面
+├── index.html              # Main generator page
+├── scanner.html            # Scanner page
 ├── css/
-│   ├── style.css           # 主页面样式
-│   └── scanner.css         # 扫描器样式
+│   ├── style.css           # Main page styles
+│   └── scanner.css         # Scanner styles
 ├── js/
-│   ├── crypto.js           # 加密功能模块
-│   ├── particles.js        # 粒子系统模块
-│   ├── qr-generator.js     # 二维码生成器模块
-│   ├── main.js             # 主页面交互逻辑
-│   └── scanner.js          # 扫描器交互逻辑
-└── README.md               # 项目说明
-```
+│   ├── crypto.js           # Encryption logic
+│   ├── particles.js        # 3D particle system
+│   ├── qr-generator.js     # QR generation logic
+│   ├── main.js             # Main page interactions
+│   └── scanner.js          # Scanner interactions
+├── assets/
+│   └── placeholder.txt     # Placeholder file
+├── images/
+│   └── placeholder.png     # Placeholder image
+└── README.md               # Project documentation
 
-## 🔧 技术栈
+## 🔧 Tech Stack
 
-- **前端**: HTML5, CSS3, JavaScript (ES6+)
-- **3D渲染**: Three.js
-- **加密**: Web Crypto API
-- **设计**: 现代CSS (Flexbox, Grid, 渐变, 毛玻璃效果)
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)  
+- **3D Rendering**: Three.js  
+- **Encryption**: Web Crypto API  
+- **Design**: Modern CSS (Flexbox, Grid, gradients, glassmorphism)  
 
-## 🛡️ 安全特性
+## 🛡️ Security Features
 
-### 加密算法
-- **AES-256-GCM**: 认证加密模式，提供机密性和完整性
-- **PBKDF2**: 密钥派生函数，防止彩虹表攻击
-- **SHA-256**: 哈希算法，用于数据完整性验证
+### Encryption Algorithms
 
-### 安全实现
-- 客户端加密，数据不离开本地
-- 随机盐值和初始化向量
-- 密钥强度验证
-- 完整性校验
+- **AES-256-GCM**: Authenticated encryption providing confidentiality and integrity  
+- **PBKDF2**: Key derivation function to resist rainbow table attacks  
+- **SHA-256**: Secure hashing for integrity verification  
 
-## 🎨 视觉设计
+### Secure Implementation
 
-### 设计理念
-- 受Visual pairing protocol启发的现代美学
-- 粒子效果营造科技感
-- 3D立体感增强视觉冲击力
-- 渐变色彩体现专业性
+- Client-side encryption — data never leaves the device  
+- Random salt and initialization vector (IV)  
+- Key strength validation  
+- Integrity checks included  
 
-### 动画效果
-- 页面过渡动画
-- 粒子系统动画
-- 3D旋转和浮动效果
-- 交互反馈动画
+## 🎨 Visual Design
 
-## 📱 使用说明
+### Design Philosophy
 
-### 生成Visual QR码
-1. 在输入框中输入要加密的消息
-2. 可选择设置自定义密码（建议使用强密码）
-3. 点击"Generate Visual QR"按钮
-4. 系统将生成带有粒子特效的3D视觉二维码
-5. 记住密码，用于后续解码
+- Inspired by the aesthetics of visual pairing protocols  
+- Particle effects evoke a futuristic, high-tech feel  
+- 3D depth adds immersive visual impact  
+- Gradient palettes reflect modern professional design  
 
-### 扫描和解码
-1. 点击"Open Scanner"打开扫描器
-2. 选择输入方式：
-   - **手动输入**: 直接粘贴二维码数据
-   - **文件上传**: 上传二维码图片（演示功能）
-   - **摄像头扫描**: 使用摄像头扫描（演示功能）
-3. 输入解密密码
-4. 点击"Decode QR Code"进行解码
-5. 查看解码结果
+### Animation Effects
 
-## 🔍 技术细节
+- Page transitions  
+- Particle motion  
+- 3D rotation and float effects  
+- Interactive feedback animations  
 
-### 数据流程
-1. **输入** → UTF-8编码 → AES-256加密 → 数据组合
-2. **视觉映射** → 矩阵生成 → 粒子系统 → 3D渲染
-3. **扫描** → 数据提取 → AES-256解密 → UTF-8解码
+## 📱 How to Use
 
-### 粒子系统
-- 基于Three.js的BufferGeometry
-- 数据值映射到粒子属性（颜色、大小、位置）
-- Z轴深度创造立体感
-- Emoji粒子集群增加趣味性
+### Generate a Visual QR Code
 
-## 🌐 浏览器兼容性
+1. Enter the message you want to encrypt  
+2. Optionally enter a custom password (strongly recommended)  
+3. Click the “Generate Visual QR” button  
+4. A 3D visual QR code will be generated with particle effects  
+5. Remember the password — it's required for decoding  
 
-- Chrome 60+
-- Firefox 55+
-- Safari 11+
-- Edge 79+
+### Scan and Decode
 
-需要支持Web Crypto API和WebGL的现代浏览器。
+1. Click “Open Scanner”  
+2. Choose input method:  
+   - **Manual Input**: Paste QR code data directly  
+   - **Image Upload**: Upload QR code image (demo functionality)  
+   - **Camera Scan**: Scan via webcam (demo functionality)  
+3. Enter the decryption password  
+4. Click “Decode QR Code”  
+5. View the decrypted result  
 
-## 📄 许可证
+## 🔍 Technical Overview
 
-本项目为演示项目，仅供学习和研究使用。
+### Data Flow
 
-## 🤝 贡献
+1. **Input** → UTF-8 encoding → AES-256 encryption → Data bundling  
+2. **Visual Mapping** → Matrix generation → Particle system → 3D rendering  
+3. **Scanning** → Data extraction → AES-256 decryption → UTF-8 decoding  
 
-欢迎提交Issue和Pull Request来改进项目。
+### Particle System
 
-## 📞 联系
+- Built with Three.js `BufferGeometry`  
+- Data values are mapped to particle attributes (color, size, position)  
+- Z-axis depth enhances dimensional feel  
+- Emoji particles add fun and playfulness  
 
-如有问题或建议，请通过Email联系。
-Email：cyinhaos@gmail.com
+## 🌐 Browser Compatibility
+
+- Chrome 60+  
+- Firefox 55+  
+- Safari 11+  
+- Edge 79+  
+
+Modern browsers with WebGL and Web Crypto API support are required.
+
+## 📄 License
+
+This is a demo project intended for educational and research purposes only.
+
+## 🤝 Contributing
+
+Feel free to submit issues or pull requests to improve this project.
+
+## 📞 Contact
+
+For questions or suggestions, please reach out via email:  
+📧 **cyinhaos@gmail.com**
 
 ---
 
-**注意**: 这是一个概念验证项目，展示了如何创建具有视觉吸引力的加密数据表示。在生产环境中使用前，请进行充分的安全审计。
-
+**Note**: This is a proof-of-concept project demonstrating visually enriched encrypted data representation. **Perform a full security audit before using in production.**
