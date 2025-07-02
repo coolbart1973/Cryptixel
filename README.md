@@ -108,3 +108,5 @@ Any similarity in the name is purely coincidental and is not intended to be dire
 ⚠️ Legal Disclaimer:  
 “Cryptixel” is an independent open-source project and is in no way affiliated with, sponsored by, or endorsed by any entity with a similar name. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
 </span></sup></sub>
+
+<a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://app.copyrighted.com/work/tUAhCuOEHSke5URe/"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/01_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/01_1.png"></a><script src="https://static.copyrighted.com/badges/helper.js"></script>
