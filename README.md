@@ -95,3 +95,7 @@ Email: cyinhaos@gmail.com
 ---
 
 **Note**: This is a concept project demonstrating secure, visually enhanced QR code generation in modern browsers.
+
+**Disclaimer**: The name "LumaQR" used in this project is an independent concept and is used for technical research, education and non-commercial display purposes.
+The terms in the name are common technical terms and do not constitute any brand suggestion or commercial association.
+Any similarity in the name is purely coincidental and is not intended to be directional or commercially misleading.
