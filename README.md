@@ -19,7 +19,7 @@
 ---
 
 ## 🚀 Quick Start
-##1.Private deployment
+## 1.Private deployment
 
 1. Clone or download the repository  
 2. Open `index.html` in a browser  
@@ -28,7 +28,7 @@
 5. Click **Generate Visual QR**  
 6. Open `scanner.html` to decode with the password
 
-##2.Deployment via a third party
+## 2.Deployment via a third party
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yinhao-ai/Cryptixel)
 ---
