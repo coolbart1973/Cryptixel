@@ -106,5 +106,5 @@ Any similarity in the name is purely coincidental and is not intended to be dire
 
 <sub><sup><span style="color:gray">
 ⚠️ Legal Disclaimer:  
-This project "Cryptixel" is an independent open-source project and is <strong>not affiliated, associated, authorized, endorsed by, or in any way officially connected with</strong> Luma AI or any of its subsidiaries or affiliates. All trademarks belong to their respective owners.
+“Cryptixel” is an independent open-source project and is in no way affiliated with, sponsored by, or endorsed by any entity with a similar name. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
 </span></sup></sub>
