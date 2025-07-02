@@ -106,6 +106,8 @@ Any similarity in the name is purely coincidental and is not intended to be dire
 
 Cryptixel is an independent project and is not affiliated with, endorsed by, or associated with Cryptix or any of its entities.
 
+This project is not related to any NFT, Web3, or token-based project of a similar name.
+
 <sub><sup><span style="color:gray">
 ⚠️ Legal Disclaimer:  
 “Cryptixel” is an independent open-source project and is in no way affiliated with, sponsored by, or endorsed by any entity with a similar name. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
