@@ -32,7 +32,7 @@
 ## 📁 Project Structure
 
 ```
-lumaqr/
+Cryptixel/
 ├── index.html               # Generator UI
 ├── scanner.html             # Scanner UI
 ├── css/
