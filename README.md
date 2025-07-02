@@ -99,3 +99,8 @@ Email: cyinhaos@gmail.com
 **Disclaimer**: The name "LumaQR" used in this project is an independent concept and is used for technical research, education and non-commercial display purposes.
 The terms in the name are common technical terms and do not constitute any brand suggestion or commercial association.
 Any similarity in the name is purely coincidental and is not intended to be directional or commercially misleading.
+
+<sub><sup><span style="color:gray">
+⚠️ Legal Disclaimer:  
+This project "LumaQR" is an independent open-source project and is <strong>not affiliated, associated, authorized, endorsed by, or in any way officially connected with</strong> Luma AI or any of its subsidiaries or affiliates. All trademarks belong to their respective owners.
+</span></sup></sub>
